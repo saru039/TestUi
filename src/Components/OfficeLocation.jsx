@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { locations } from "../Data/location.js";
+import { locations } from "../Data/Location.js";
 import { assets } from "../assets/Assets.js";
 import { motion } from "framer-motion";
 
