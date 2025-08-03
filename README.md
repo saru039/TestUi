@@ -1,12 +1,62 @@
-# React + Vite
+# BrandStory UI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the Front-End UI assignment I completed for **BrandStory Digital**. The design was provided via Figma, and I built the project using React and modern frontend libraries.
 
-Currently, two official plugins are available:
+It's fully responsive, animated, and structured for clarity and maintainability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Live Site:** \ https://testui-rzk5.onrender.com/
+* **GitHub Repository:** https://github.com/saru039/TestUi
+
+---
+
+## ⚙️ Technologies Used
+
+* **React (Vite)** – Lightweight and fast dev environment
+* **Framer Motion** – Smooth animations and UI transitions
+* **SwiperJS** – Modern touch slider for testimonials
+* **Lucide Icons** – For clean, minimal icons
+* **Tailwind CSS** – Rapid utility-based styling
+
+---
+
+## 🧩 Folder Breakdown
+
+```
+src/
+├── assets/          → Images, icons
+├── components/      → Reusable React components (Map, Carousel, etc.)
+├── Data/            → Static JSON-like content for locations/testimonials
+├── App.jsx          → Main UI layout
+└── main.jsx         → App entry point
+```
+
+---
+
+## ✅ What I Built
+
+* 📱 Fully responsive across mobile, tablet, and desktop
+* 🎯 Clean UI and neat code, matching the Figma closely
+
+---
+
+## 🚀 Run the Project Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/saru039/TestUi.git
+cd TestUi
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+## 📌 Note
+
+This project was created as part of a technical assessment for **BrandStory Digital**. Not intended for commercial use.
