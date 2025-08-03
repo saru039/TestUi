@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+
+
+.font-grotesk{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.flip {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.group:hover .flip {
+  transform: rotateY(180deg);
+}
+
+.hex-mask {
+  -webkit-mask-image: url('/src/assets/hexBg.png');
+  mask-image: url('/src/assets/hexBg.png');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+  background-color: white;
+}
